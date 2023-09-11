@@ -1,12 +1,26 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Sample Posts"
-    url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Infos"
+    url: /info/
+  - title: "Ergebnisse"
+    url: /ergebnis/
+  - title: "Kontakt"
+    url: /kontakt/
+  - title: "Impressum"
+    url: /impressum/
+  - title: "Datenschutz"
+    url: /datenschutz/
+
+info:
+  - title: Infos
+    children:
+      - title: "Allgemeine Informationen"
+        url: /info/
+      - title: "Bewerbung"
+        url: /bewerbung/
+      - title: "Anfahrt"
+        url: /anfahrt/
+      - title: "Camping"
+        url: /camping/
+      - title: "Zeitplan"
+        url: /zeitplan/

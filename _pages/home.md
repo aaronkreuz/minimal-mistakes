@@ -3,14 +3,13 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#000"
-  overlay_image: /assets/images/DAM_logo_black_highDPI.png
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
-excerpt: >
-  <span style="color:black"> A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.</span> <br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  #overlay_color: "#000"
+  #TODO: Style class with smaller images (80%), i.e. page__hero small
+  small_image: true
+  image: /assets/images/DAM_logo_black_highDPI.png
+  # actions:
+  #  - label: "<i class='fas fa-download'></i> Install now"
+  #    url: "/docs/quick-start-guide/"
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
