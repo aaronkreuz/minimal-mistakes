@@ -2,7 +2,7 @@
 title: "Information"
 layout: single
 permalink: /info/
-wide: true
+classes: wide
 sidebar:
     nav: "info"
 ---

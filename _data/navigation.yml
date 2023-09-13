@@ -11,6 +11,7 @@ main:
   - title: "Datenschutz"
     url: /datenschutz/
 
+# nav-sidebar info sub-page
 info:
   - title: Infos
     children:
