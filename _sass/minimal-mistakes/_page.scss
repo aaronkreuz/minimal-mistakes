@@ -240,6 +240,15 @@ body {
   -ms-interpolation-mode: bicubic;
 }
 
+.page__hero-image-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
 .page__hero-caption {
   position: absolute;
   bottom: 0;

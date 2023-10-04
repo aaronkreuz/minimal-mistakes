@@ -35,3 +35,10 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+<h2 id="page-title" class="page__title p-name" itemprop="headline">
+Kommentare
+</h2>
+
+<script defer src="https://85.215.39.85/js/commento.js"></script>
+<div id="commento"></div>
