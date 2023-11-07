@@ -2,37 +2,40 @@
 layout: splash
 permalink: /
 hidden: true
+classes: wide
 header:
   #overlay_color: "#000"
   #TODO: Style class with smaller images (80%), i.e. page__hero small
-  small_image: true
-  image: /assets/images/DAM_logo_black_highDPI.png
+  #small_image: true
+  # image: /assets/images/logo_wide.jpg
   # actions:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/pexels-fabricio-trujillo-54567.jpg
+    alt: "topic 1"
+    title: "Topic 1"
+    #excerpt: "-"
+    url: "/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/pexels-mike-1171084_crop.jpg
+    alt: "topic 2"
+    title: "Topic 2"
+    #excerpt: "-"
+    url: "/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+  - image_path: /assets/images/pexels-rfstudio-3621104_crop.jpg
+    alt: "topic 3"
+    title: "Topic 3"
+    #excerpt: "-"
     url: "/docs/license/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"
 ---
+
+{% include figure image_path="/assets/images/DAM_logo_with_text.png" alt="DAM logo" %}
 
 {% include feature_row %}
 

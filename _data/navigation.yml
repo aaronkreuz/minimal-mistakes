@@ -25,3 +25,5 @@ info:
         url: /camping/
       - title: "Zeitplan"
         url: /zeitplan/
+      - title: "Archiv"
+        url: /archive/
