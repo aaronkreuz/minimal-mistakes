@@ -27,3 +27,12 @@ info:
         url: /zeitplan/
       - title: "Archiv"
         url: /archive/
+
+# nav-sidebar ergebnis sub-page
+ergebnis:
+  - title: Ergebnisse
+    children:
+      - title: "Ergebnisse"
+        url: /ergebnis/
+      - title: "Regeln"
+        url: /regeln/
