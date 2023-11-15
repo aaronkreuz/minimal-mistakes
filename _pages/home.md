@@ -35,13 +35,15 @@ feature_row:
     btn_label: "Learn more"
 ---
 
-{% include figure image_path="/assets/images/DAM_logo_with_text.png" alt="DAM logo" %}
+{% include figure image_path="/assets/images/logoDAM2024.png" alt="DAM logo" %}
 
 {% include feature_row %}
 
 <h2 id="page-title" class="page__title p-name" itemprop="headline">
 Kommentare
 </h2>
+
+<p class="notice--info"><strong>&#x1F6C8;</strong> Kommentare müssen manuell freigegeben werden. Daher kann es bis zu einem Tag dauern bis diese hier erscheinen.</p>
 
 <script defer src="https://85.215.39.85/js/commento.js"></script>
 <div id="commento"></div>
