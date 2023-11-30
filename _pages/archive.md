@@ -1,5 +1,5 @@
 ---
 title: "Posts"
 permalink: /archive/
-layout: tags
+layout: posts
 ---

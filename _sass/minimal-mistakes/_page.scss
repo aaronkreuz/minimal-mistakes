@@ -90,7 +90,7 @@ body {
 
 .page__content {
   h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.2em;
     border-bottom: 1px solid $border-color;
   }
 
@@ -245,6 +245,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+.page__hero-image-xsmall {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
   height: auto;
   -ms-interpolation-mode: bicubic;
 }

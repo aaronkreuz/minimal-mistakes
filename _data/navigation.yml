@@ -21,10 +21,10 @@ info:
         url: /bewerbung/
       - title: "Anfahrt"
         url: /anfahrt/
-      - title: "Camping"
-        url: /camping/
-      - title: "Zeitplan"
-        url: /zeitplan/
+      #- title: "Camping"
+      #  url: /camping/
+      #- title: "Zeitplan"
+      #  url: /zeitplan/
       - title: "Archiv"
         url: /archive/
 

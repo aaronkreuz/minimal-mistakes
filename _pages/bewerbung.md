@@ -5,6 +5,6 @@ title: Bewerbung
 sidebar:
     nav: "info"
 ---
-<div class="text-left">
-    Bewerbungsinformationen
-</div>
+
+Hier werden Bewerbungsinformationen erscheinen.
+{: .text-center}

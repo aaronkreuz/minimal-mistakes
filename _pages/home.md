@@ -12,30 +12,31 @@ header:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
 feature_row:
-  - image_path: /assets/images/pexels-fabricio-trujillo-54567.jpg
+  - image_path: /assets/images/info_symbol_crop.jpg
     alt: "topic 1"
-    title: "Topic 1"
-    excerpt: "Blogpost 1"
-    url: "/"
+    title: "Infos"
+    excerpt: "Alle Neuigkeiten und allgemeinen Informationen findet ihr hier!"
+    url: "/info/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/pexels-mike-1171084_crop.jpg
+    btn_label: "Zu den Infos"
+  - image_path: /assets/images/anreise_symbol_crop.jpg
     alt: "topic 2"
-    title: "Topic 2"
-    excerpt: "Blogpost 2"
-    url: "/"
+    title: "Anreise"
+    excerpt: "Alle Infos über Anreise und Austragungsort findet ihr hier!"
+    url: "/anfahrt/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/pexels-rfstudio-3621104_crop.jpg
+    btn_label: "Zur Anreise"
+  - image_path: /assets/images/archive_symbol_crop.jpg
     alt: "topic 3"
-    title: "Topic 3"
-    excerpt: "Blogpost 3"
-    url: "/docs/license/"
+    title: "Archiv"
+    excerpt: "Alle vergangenen Posts auf einen Blick findet ihr hier!"
+    url: "/archive/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Zum Archiv"
 ---
 
-{% include figure image_path="/assets/images/logoDAM2024.png" alt="DAM logo" %}
+
+{% include figure image_path="/assets/images/DAM_logo_black_small.jpg" alt="DAM logo" class="page__hero-image-xsmall" %}
 
 {% include feature_row %}
 
