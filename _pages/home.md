@@ -28,15 +28,21 @@ feature_row:
     btn_label: "Zur Anreise"
   - image_path: /assets/images/archive_symbol_crop.jpg
     alt: "topic 3"
-    title: "Archiv"
-    excerpt: "Alle vergangenen Posts auf einen Blick findet ihr hier!"
-    url: "/archive/"
+    title: "Bewerbung"
+    excerpt: "Alle Informationen über den Bewerbungsprozess findet ihr hier!"
+    url: "/bewerbung/"
     btn_class: "btn--primary"
-    btn_label: "Zum Archiv"
+    btn_label: "Zur Bewerbung"
 ---
+<br>
+<h1 class="page__title p-name">DAM 2024 * AACHEN/LANDGRAAF</h1>
+{: .text-center}
+{% include figure image_path="/assets/images/DAM_logo_black_small.jpg" alt="DAM logo" class="page__hero-image-xsmall"%}
 
-
-{% include figure image_path="/assets/images/DAM_logo_black_small.jpg" alt="DAM logo" class="page__hero-image-xsmall" %}
+<div class="text-center" style="margin-bottom:2em;">
+  <a href="/info/" class="btn btn--primary btn--x-large">Was ist eigentlich die DAM?
+  </a>
+</div>
 
 {% include feature_row %}
 
@@ -44,7 +50,9 @@ feature_row:
 Kommentare
 </h2>
 
-<p class="notice--info"><strong>&#x1F6C8;</strong> Kommentare müssen manuell freigegeben werden. Daher kann es bis zu einem Tag dauern bis diese hier erscheinen.</p>
+<p class="notice--info"><strong>&#x1F6C8;</strong> Die Kommentarfunktion wird in Kürze freigeschaltet </p>
 
-<script defer src="https://85.215.39.85/js/commento.js"></script>
-<div id="commento"></div>
+<!-- <p class="notice--info"><strong>&#x1F6C8;</strong> Kommentare müssen manuell freigegeben werden. Daher kann es bis zu einem Tag dauern bis diese hier erscheinen.</p> -->
+
+<!-- <script defer src="https://85.215.39.85/js/commento.js"></script>
+<div id="commento"></div> -->

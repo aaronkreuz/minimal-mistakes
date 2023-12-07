@@ -4,8 +4,8 @@ main:
     url: /info/
   - title: "Ergebnisse"
     url: /ergebnis/
-  - title: "Kontakt"
-    url: /kontakt/
+  #- title: "Kontakt"
+  #  url: /kontakt/
   - title: "Impressum"
     url: /impressum/
   - title: "Datenschutz"
