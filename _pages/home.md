@@ -12,27 +12,28 @@ header:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
 feature_row:
-  - image_path: /assets/images/info_symbol_crop.jpg
+  - image_path: /assets/images/archive_symbol_crop.jpg
     alt: "topic 1"
+    title: "Bewerbung"
+    excerpt: "Alle Informationen über den Bewerbungsprozess findet ihr hier!"
+    url: "/bewerbung/"
+    btn_class: "btn--primary"
+    btn_label: "Zur Bewerbung"
+  - image_path: /assets/images/info_symbol_crop.jpg
+    alt: "topic 2"
     title: "Infos"
     excerpt: "Alle Neuigkeiten und allgemeinen Informationen findet ihr hier!"
     url: "/info/"
     btn_class: "btn--primary"
     btn_label: "Zu den Infos"
   - image_path: /assets/images/anreise_symbol_crop.jpg
-    alt: "topic 2"
+    alt: "topic 3"
     title: "Anreise"
     excerpt: "Alle Infos über Anreise und Austragungsort findet ihr hier!"
     url: "/anfahrt/"
     btn_class: "btn--primary"
     btn_label: "Zur Anreise"
-  - image_path: /assets/images/archive_symbol_crop.jpg
-    alt: "topic 3"
-    title: "Bewerbung"
-    excerpt: "Alle Informationen über den Bewerbungsprozess findet ihr hier!"
-    url: "/bewerbung/"
-    btn_class: "btn--primary"
-    btn_label: "Zur Bewerbung"
+
 ---
 <br>
 <h1 class="page__title p-name">DAM 2024 * AACHEN/LANDGRAAF</h1>
@@ -50,9 +51,9 @@ feature_row:
 Kommentare
 </h2>
 
-<p class="notice--info"><strong>&#x1F6C8;</strong> Die Kommentarfunktion wird in Kürze freigeschaltet </p>
+<!-- <p class="notice--info"><strong>&#x1F6C8;</strong> Die Kommentarfunktion wird in Kürze freigeschaltet </p> -->
 
-<!-- <p class="notice--info"><strong>&#x1F6C8;</strong> Kommentare müssen manuell freigegeben werden. Daher kann es bis zu einem Tag dauern bis diese hier erscheinen.</p> -->
+<p class="notice--info"><strong>&#x1F6C8;</strong> Kommentare müssen manuell freigegeben werden. Daher kann es bis zu einem Tag dauern bis diese hier erscheinen.</p>
 
-<!-- <script defer src="https://85.215.39.85/js/commento.js"></script>
-<div id="commento"></div> -->
+<script defer src="https://commento.dam2024.de/js/commento.js"></script>
+<div id="commento"></div>
